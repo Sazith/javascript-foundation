@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>My First Web Page </h1>
+  <p>My First Paragraph</p>
+  <p id="demo"></p>
+  <button onclick="window.print()">Print this Page</button>
+
+  <script>
+    document.getElementById('demo').innerHTML = 5+6;
+    document.write(5+6); // only be used for testing
+    window.alert(5+6); // you can skip window keyword
+    console.log(5+6); // for debugging
+  </script>
+</body>
+</html>
